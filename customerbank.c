@@ -26,7 +26,7 @@ void UpdateBalanceForHighBalanceCustomers(Customer customers[], int count)
         if (customers[i].balance > 1000)
         {
             customers[i].balance += 100;
-            printf("%d .2f\n", customers[i].accountNumber, customers[i].balance);
+            printf(" %d %.2f\n", customers[i].accountNumber, customers[i].balance);
         }
     }
 }
